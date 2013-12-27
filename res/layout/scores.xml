@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/green_background"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" 
+   android:stretchColumns="1">
+
+   <TableRow>
+       <TextView
+           android:text="Username"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:padding="3dip" />
+
+       <EditText android:id="@+id/username"
+           android:text="Username"
+           android:padding="3dip"
+           android:scrollHorizontally="true" />
+   </TableRow>
+  <TableRow
+       android:gravity="right">
+
+       <Button android:id="@+id/cancel_button"
+           android:text="@string/cancel" 
+           android:textStyle="bold"
+           android:padding="3dip" />
+
+       <Button android:id="@+id/scores_button"
+           android:text="@string/scores"
+           android:textStyle="bold"
+           android:padding="3dip" />
+   </TableRow>   
+  
+ 
+ <TableRow>   
+   <TextView
+      android:id="@+id/scores"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" />
+
+   </TableRow>   
+</TableLayout>

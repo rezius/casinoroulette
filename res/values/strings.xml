@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android! 2e",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband2 for more book information.
+-->
+
+<resources>
+   <string name="app_name">Casino Roulette</string>
+   <string name="main_title">Android  Casino Roulette</string>
+   
+   <string name="new_game_label">Start Game</string>
+   <string name="about_label">Help</string>
+   <string name="exit_label">Exit</string>
+   
+
+   
+   <string name="settings_label">Settings...</string>
+   <string name="settings_title">Casino Roulette settings</string>
+   <string name="settings_shortcut">s</string>
+   <string name="music_title">Music</string>
+   <string name="music_summary">Play background music</string>
+   <string name="hints_title">Hints</string>
+   <string name="hints_summary">Show hints during play</string>
+   
+
+   
+   <string name="new_game_title">Difficulty</string>
+   <string name="easy_label">Easy</string>
+   <string name="medium_label">Medium</string>
+   <string name="hard_label">Hard</string><string name="continue_label">Continue</string>
+   
+
+   
+   <string name="game_title">Casino Roulette</string>
+   <string name="no_moves_label">No moves</string>
+   <string name="keypad_title">Keypad</string>
+   
+   
+   
+   <string name="about_title">About Android Casino Roulette</string>
+   
+   
+   
+<string name="register_button">Register</string>
+<string name="register_label">Register</string>
+<string name="login_label">Login</string>
+<string name="username">User</string>
+<string name="password">Password</string>
+<string name="cancel">Cancel</string>
+<string name="login">Login</string>
+<string name="bottom_title">Enjoy the Game!</string>
+<string name="app_version">Casino Roulette Version 1.0\nCopyright © 2011 Rezart Veliaj. All Rights Reserved.</string>
+<string name="about_text">Casino-Roulette is a gambling game played by certain rules.\n\n In the beginning the player chooses the amount of money to bet. \n\nThen the player sets the range of numbers  he/she thinks the roulette wheel will stop at. \n\n Depending on the actual result and the prediction, calculations are made on either the player won or lost the bet and on the amount of money the player won or lost.   </string>
+<string name="scores_label">Scores</string>
+<string name="name">Name</string>
+<string name="surname">Surname</string>
+<string name="email">E-MAIL</string>
+<string name="scores">Display Scores</string>
+</resources>

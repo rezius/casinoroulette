@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Main Layout
+-->
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/green_background"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <TextView android:text="@string/main_title" 
+      android:id="@+id/TextView01" 
+      android:textSize="20sp"
+      android:textStyle="bold" 
+      android:layout_marginBottom="25dip" 
+      android:layout_gravity="center"
+      android:textColor="@color/red"       
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content">
+      </TextView>
+      <Button
+         android:id="@+id/new_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/new_game_label"
+         android:textStyle="bold" 
+         android:textColor="@color/red"/>
+      <Button
+         android:id="@+id/register_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/register_label"
+         android:textStyle="bold" 
+         android:textColor="@color/red"/>
+      <Button
+         android:id="@+id/scores_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/scores_label"
+         android:textStyle="bold" 
+         android:textColor="@color/red"/>              
+      <Button
+         android:id="@+id/about_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/about_label"
+         android:textStyle="bold" 
+         android:textColor="@color/red"/>
+      <Button
+         android:id="@+id/exit_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/exit_label"
+         android:textStyle="bold" 
+         android:textColor="@color/red"/>
+   
+</LinearLayout>
+</LinearLayout>
